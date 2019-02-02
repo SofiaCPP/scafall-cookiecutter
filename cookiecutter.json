@@ -1,4 +1,6 @@
 {
     "project_name": "C++ project",
-    "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '_') }}"
+    "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '_') }}",
+    "copyright_year": "{% now 'local', '%Y' %}",
+    "copyright_holder": ""
 }
